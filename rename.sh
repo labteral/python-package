@@ -10,7 +10,7 @@ read -ep "Author email [rodrigo@martinez.gal]: " EMAIL
 EMAIL=${EMAIL:-"rodrigo@martinez.gal"}
 
 sed -i "s~package_name~$PACKAGE~" package_name~__init__.py 
-mv package_name~package_name.py package_name~$PACKAGE.py
+mv package_name/package_name.py package_name/$PACKAGE.py
 mv package_name $PACKAGE
 sed -i "s~package_name~$PACKAGE~g" setup.py
 sed -i "s~description_value~$DESCRIPTION~g" setup.py
