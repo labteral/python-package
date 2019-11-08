@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from setuptools import setup
+from setuptools import find_packages
 import package_name
 
 setup(
@@ -12,7 +13,7 @@ setup(
     author='author_value',
     author_email='email_value',
     license='GNU General Public License v3 (GPLv3)',
-    packages=['package_name'],
+    packages=find_packages(),
     zip_safe=False,
     classifiers=[
         "Development Status :: 4 - Beta",
