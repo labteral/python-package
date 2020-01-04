@@ -1,3 +1,3 @@
 #!/bin/bash
 rm dist/*
-python setup.py install
+python3 setup.py install
