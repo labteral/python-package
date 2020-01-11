@@ -17,3 +17,5 @@ sed -i "s~description_value~$DESCRIPTION~g" setup.py
 sed -i "s~url_value~$URL~g" setup.py
 sed -i "s~author_value~$AUTHOR~g" setup.py
 sed -i "s~email_value~$EMAIL~g" setup.py
+
+rm rename.sh
