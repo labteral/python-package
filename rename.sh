@@ -18,4 +18,5 @@ sed -i "s~url_value~$URL~g" setup.py
 sed -i "s~author_value~$AUTHOR~g" setup.py
 sed -i "s~email_value~$EMAIL~g" setup.py
 
+rm -f .git/
 rm rename.sh
