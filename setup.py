@@ -25,4 +25,5 @@ setup(
         "Programming Language :: Python :: Implementation :: PyPy",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
+    python_requires=">=3.6",
     install_requires=[''])  # Dependencies
