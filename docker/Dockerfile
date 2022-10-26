@@ -1,1 +1,1 @@
-FROM brunneis/python:3.7
+FROM FROM python:3
