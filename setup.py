@@ -28,5 +28,10 @@ setup(
     python_requires=">=3.10",
     install_requires=[
         '',
-    ]
+    ],
+    package_data={
+        'package_name': [
+            '',
+        ],
+    },
 )
